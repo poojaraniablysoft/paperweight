@@ -1,0 +1,17 @@
+.check_list {
+    border: 1px solid #e1e1e1;
+    height: 115px;
+    overflow-x: hidden;
+    overflow-y: visible;
+	padding: 10px 10px;
+	background-color:#fff;
+	max-width:400px;
+}
+
+.radio_buttons td {
+    float: left;
+	padding: 0 6px !important;
+}
+.check_buttons td {
+    float: left;
+}

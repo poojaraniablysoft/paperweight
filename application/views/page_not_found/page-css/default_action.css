@@ -1,0 +1,12 @@
+/* 
+.errorWrap{position:relative; padding:0px 0; position:relative; margin:0 0 0 0;}
+.errorWrap .textwrap{margin:0 auto 20px; position:relative; border-bottom:1px solid #d2d8da; padding:0 0; width:80%;}
+.errorWrap .textwrap .errorpic{ float:right; margin:60px 0 0 0;}
+.errorWrap .textwrap .text{ position:relative; display:inline-block;}
+.errorWrap .textwrap .text span{font-size:280px; color:#000; line-height:1;}
+.errorWrap .textwrap .overtext{position:absolute; left:0; top:90px; padding:10px 15px 10px 0; background:#fff; width:600px;}
+.errorWrap .textwrap .overtext h2{ font-weight:bold; float:left; padding:0; font-size:80px; color:#ef2e25; line-height:65px;}
+.errorWrap .textwrap .overtext h5{font-size:25px; color:#333; padding:0 15px; line-height:24px; display:inline-block; margin:6px 0 6px 0;}
+.errorWrap .textwrap .overtext h5 span{ font-size:30px !important;color:#ef2e25 !important;}
+.errorWrap .buttonGreen{position:relative;}
+ */

@@ -1,0 +1,107 @@
+#blogForm.loginform_container .fieldname > input  , #security_code {
+    width: 81.9%;
+}
+
+#blogForm.loginform_container .btn {
+    padding: 8px 13px;
+}
+
+#blogForm.loginform_container {
+    margin: 100px auto;
+}
+
+.formTable td {
+	text-align:left!important;
+}
+.container {
+    margin: 0 auto;
+    position: relative;
+    width: 1000px;
+}
+
+.loginform_container {
+    margin: 0 auto 100px;
+    width: 522px;
+}
+
+.loginform_holder {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.loginform_holder h1 {
+    color: #333;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 35px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.loginform_holder .siteForm {
+    padding: 0 35px 35px;
+    width: 100%;
+}
+
+.file-upload input.upload {
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.fieldname input {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #d8d8d8;
+    color: #666;
+    font-family: inherit;
+    padding: 8px 12px;
+}
+
+.formTable td:first-child {
+    padding-left: 0;
+}
+
+#image {
+    height: 30px;
+    position: absolute;
+    right: 94px;
+    top: 9px;
+    width: 111px;
+}
+
+.btn {
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: top;
+    white-space: nowrap;
+}
+.btn-primary {
+    background-color: #767f89;
+    border-color: #767f89;
+    color: #fff;
+}
+.file-upload {
+    overflow: hidden;
+    position: relative;
+}
+
+.file-upload.btn.btn-primary:hover {
+    background: #333 none repeat scroll 0 0;
+}

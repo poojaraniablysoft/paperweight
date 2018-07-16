@@ -1,0 +1,87 @@
+/* inpput 
+input::-moz-focus-inner {
+border: 0;
+padding: 0;
+}
+strong {
+	font-weight:bold;
+}
+/* forms css 
+ input[type="text"] {
+	width:100%;
+	background:#FFFFFF;
+	border:1px solid #bcbdbb;
+	-webkit-border-radius: 2;
+	-moz-border-radius: 2;
+	border-radius: 2px;
+	font-size:13px;
+	color:#292929;
+	height:38px;
+	padding:0 28px 0 10px;
+	vertical-align:middle;
+}
+input[type="text"]:focus {
+	border-color: #071f59;
+}
+input[type="password"] {
+	width:100%;
+	background:#FFFFFF;
+	border:1px solid #bcbdbb;
+	-webkit-border-radius: 2;
+	-moz-border-radius: 2;
+	border-radius: 2px;
+	height:38px;
+	vertical-align:middle;
+	font-size:14px;
+	color:#7a7a7a;
+	padding:0 10px;
+	margin:0 0 0 0;
+}
+input[type="password"]:focus {
+	border-color: #071f59;
+}
+textarea:focus {
+	border-color: #071f59;
+	overflow:hidden;
+}
+textarea {
+	border-color: #071f59;
+	overflow:hidden;
+	height:100px;
+}
+select {
+	width:99.9%;
+	-webkit-border-radius: 2;
+	-moz-border-radius: 2;
+	border-radius: 2px;
+	background:#FFFFFF;
+	height:38px;
+	font-size:13px;
+	color:#292929;
+	padding:6px;
+	margin:0 0 0 0;
+	line-height:34px;
+	overflow:hidden;
+}
+select:focus {
+	border-color: #071f59;
+}
+input[type="submit"], input[type="button"] {
+	-webkit-appearance:none;
+	border:none;
+	border-radius:0px;
+	font-size:16px;
+	color:#fff;
+	cursor:pointer;
+	background: #de8642;
+}
+input[type="submit"]:hover, input[type="button"]:hover {
+	background: #071f59;
+}
+.mandatory {
+	color: #FF0000;
+}
+button[type="submit"], input[type="submit"], input[type="text"], textarea, select {
+	outline:none;
+	border:none;
+}*/

@@ -1,0 +1,101 @@
+@CHARSET "ISO-8859-1";
+.field-processing{
+	background: url("../images/ajax2.gif") no-repeat;
+}
+
+/* ul.errorlist{
+	color: #f00;
+	padding: 0;
+	margin: 0;
+}
+ul.errorlist li, ul.errorlist li a{
+	color: #f00 !important;
+}  */
+
+ul.errorlist{
+color: #f00;
+margin:0px;
+padding:0px;
+clear:both !important;
+display:block;
+font-size: 12px;
+
+}
+ul.errorlist li, ul.errorlist li a{
+color: #f00;
+text-align:left;
+/*float:left;
+clear:both;
+cursor:text;
+font-weight:bold;*/
+}
+
+
+input.error, select.error, textarea.error{
+	border: 2px solid #f00 !important;
+}
+
+/* .div_msg{
+	border: 1px solid #090;
+	margin: 5px;
+}
+
+.div_msg ul{
+	list-style: none;
+}
+
+.div_msg ul li{
+	color: #090;
+	font-weight: bold;
+}
+
+.div_error{
+	border: 1px solid #f00;
+	margin: 5px;
+	font-weight: bold;
+	color: #f00;
+}
+
+.div_error ul, .div_error ul li, .div_error ul li a{
+	font-weight: normal;
+	color: #f00;
+} */
+.div_msg
+{
+background-color: #eee;
+border: 1px solid green;
+margin: 0 0 20px 0;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#333333;
+}
+.div_msg ul 
+{
+font-family:Arial, Helvetica, sans-serif;
+color:green;
+font-style: italic;
+padding:0px;
+margin:0px;
+
+}
+.div_msg ul  li{
+padding:8px;}
+
+
+.div_error
+{
+background-color: #eee;
+border: 1px solid red;
+margin: 0 0 20px 0;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+/* padding:5px; */
+color:#333333;
+padding: 5px;
+}
+.div_error ul li {
+font-family:Arial, Helvetica, sans-serif;
+color: red;
+font-style: italic
+}
+.spn_must_field {color:#f00; padding-left:3px;}

@@ -1,0 +1,215 @@
+/* Global Reset & Standards ---------------------- */
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figure, figcaption, hgroup, menu, footer, header, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	line-height:normal;
+	font-family: 'Open Sans', sans-serif;
+}
+html {
+	-webkit-text-size-adjust: 100%; /* Automatically adjusted for Safari on iPhone. */
+	-ms-text-size-adjust: 100%;
+}
+
+ @media screen and (max-width: 1025px) {
+	input[type="text"],input[type="email"], input[type="password"], textarea, select{
+-webkit-appearance:none;
+	}
+	}
+
+body {
+	background:#fff;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 15px;
+	color: #3e434a;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+	line-height: 1.42857;
+	width:100%;
+	height:100%;
+
+}
+html, body {
+	height:100%;
+}
+article, aside, canvas, figure, figure img, figcaption, hgroup, footer, header, nav, section, audio, video {
+	display: block;
+}
+fieldset, img {
+	border: 0;
+}
+/* Links ---------------------- */
+a {
+	text-decoration: none;
+	line-height:inherit;
+	outline:none;
+	-webkit-transition: 0.5s all ease-in-out;
+	-moz-transition: 0.5s all ease-in-out;
+	-o-transition: 0.5s all ease-in-out;
+	transition: 0.5s all ease-in-out;
+}
+a:hover {
+	-webkit-transition: 0.5s all ease-in-out;
+	-moz-transition: 0.5s all ease-in-out;
+	-o-transition: 0.5s all ease-in-out;
+	transition: 0.5s all ease-in-out;
+}
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+	line-height: 0;
+}
+.clearfix:after {
+	clear: both;
+}
+p a, p a:visited {
+	line-height: inherit;
+}
+/* Reset for strange margins by default on <figure> elements */
+figure {
+	margin: 0;
+}
+/* Base Type Styles Using Modular Scale ---------------------- */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	direction: ltr;
+}
+/* Lists ---------------------- */
+ul, ol, dl {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+ul li ul, ul li ol {
+	margin-left: 20px;
+	margin-bottom: 0;
+}
+/* headings */
+h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+
+/* inpput */
+input::-moz-focus-inner {
+border: 0;
+padding: 0;
+}
+strong {
+	font-weight:bold;
+}
+/* forms css */
+ input[type="text"] {
+	width:100%;
+	background:#FFFFFF;
+	border:1px solid #bcbdbb;
+	-webkit-border-radius: 2;
+	-moz-border-radius: 2;
+	border-radius: 2px;
+	font-size:15px;
+	color:#292929;
+	height:38px;
+	padding:0 28px 0 10px;
+	vertical-align:middle;
+}
+input[type="text"]:focus {
+	border-color: #071f59;
+}
+input[type="password"] {
+	width:100%;
+	background:#FFFFFF;
+	border:1px solid #bcbdbb;
+	-webkit-border-radius: 2;
+	-moz-border-radius: 2;
+	border-radius: 2px;
+	height:38px;
+	vertical-align:middle;
+	font-size:14px;
+	color:#7a7a7a;
+	padding:0 10px;
+	margin:0 0 0 0;
+}
+input[type="password"]:focus {
+	border-color: #071f59;
+}
+textarea:focus {
+	border-color: #071f59;
+	overflow:hidden;
+}
+textarea {
+	border-color: #071f59;
+	overflow:hidden;
+	height:100px;
+	width:100%;
+}
+select {
+	width:99.9%;
+	-webkit-border-radius: 2;
+	-moz-border-radius: 2;
+	border-radius: 2px;
+	background:#FFFFFF;
+	height:38px;
+	font-size:13px;
+	color:#292929;
+	padding-top:0;
+	padding-right:0px !important;
+	padding-bottom:0px;
+	padding-left:6px;
+	margin:0 0 0 0;
+	line-height:34px;
+	overflow:hidden;
+}
+select:focus {
+	border-color: #071f59;
+}
+input[type="submit"], input[type="button"] {
+	-webkit-appearance:none;
+	border:none;
+	border-radius:0px;
+	font-size:16px;
+	color:#fff;
+	cursor:pointer;
+}
+input[type="submit"]:hover, input[type="button"]:hover {
+}
+.mandatory {
+	color: #FF0000;
+}
+button[type="submit"], input[type="submit"],  select {
+	outline:none;
+	border:none;
+}
+textarea{
+	border:1px solid #ccc;
+}
+/* cms css */
+.cmsContainer{width:100%; font-size:14px;line-height:24px; }
+.cmsContainer h2{ font-size:30px; color:#3e434a; font-weight:600; text-align:center;}
+.cmsContainer h3{ font-size:28px; color:#3e434a; font-weight:600;}
+.cmsContainer h4{ font-size:24px; color:#3e434a; font-weight:600;}
+.cmsContainer h5{ font-size:18px; color:#3e434a; font-weight:600;}
+.cmsContainer h6{ font-size:16px; color:#3e434a; font-weight:600;}
+.cmsContainer p { color:#3e434a; font-size:14px; }
+.cmsContainer p a{ color:#3e434a;}
+
+.cmsContainer p a:hover{ color:#000;}
+.cmsContainer p strong{font-size:15px;}
+.cmsContainer p strong a{text-decoration:underline;}
+
+.cmsContainer ul{margin:0 0 15px 0; padding:0; width:100%;}
+.cmsContainer ul li ul{margin:15px 0 0 0; padding:0; width:100%;}
+.cmsContainer ul li{ list-style:none; position:relative; padding:0 0 10px 20px;color:#3e434a; font-size:14px;}
+.cmsContainer ul li:before{content:"";width:6px; height:6px; border-radius:30px; background:#3e434a; left:0; top:8px; position:absolute;}
+.cmsContainer ul li strong{}
+.cmsContainer ol{margin:0 0 15px 0; padding:0; display:inline-block; width:100%;}
+.cmsContainer ol li{ list-style:decimal inside;font-size:15px; color:#333;margin:0; padding:0 0 10px 0;}
+.cmsContainer ul > li > a{color:#333;text-decoration:underline;}
+

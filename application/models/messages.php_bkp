@@ -1,0 +1,232 @@
+<?php
+class Messages extends Model {
+	protected $error;
+	private $msgId;
+	
+	public function __construct() {
+		parent::__construct();
+	}
+	
+	public function getError(){
+        return $this->error;
+    }
+	
+	public function getMsgId() {
+		return $this->msgId;
+	}
+	
+	public function addMessage($data) {
+        $record = new TableRecord('tbl_task_updates');
+		
+		$record->setFldValue('tskmsg_bid_id', $data['bid_id']);
+		$record->setFldValue('tskmsg_user_id', User::getLoggedUserAttribute('user_id'));
+		$record->setFldValue('tskmsg_date', 'mysql_func_NOW()', true);
+		$record->setFldValue('tskmsg_msg', $data['message']);
+		$record->setFldValue('tskmsg_viewed', 0);
+		
+		if (!$record->addNew()) {
+			$this->error = $record->getError();
+			return false;
+		}
+		
+		$this->msgId = $record->getId();
+        
+        return true;
+	}
+	
+	public function getConversations() {
+		$db = &Syspage::getdb();
+		
+		$srch = new SearchBase('tbl_bids', 'b');
+		
+		$srch->joinTable('tbl_tasks', 'INNER JOIN', 'b.bid_task_id=t.task_id', 't');
+		$srch->joinTable('(SELECT * FROM tbl_task_updates ORDER BY tskmsg_date desc LIMIT 1)', 'INNER JOIN', 'm.tskmsg_bid_id=b.bid_id', 'm');
+		$srch->joinTable('tbl_users', 'INNER JOIN', 'm.tskmsg_user_id=u.user_id', 'u');
+		
+		$cnd = $srch->addCondition('b.bid_user_id', '=', User::getLoggedUserAttribute('user_id'));
+		$cnd->attachCondition('t.task_user_id', '=', User::getLoggedUserAttribute('user_id'));
+		
+		$srch->addGroupBy('t.task_id');
+		
+		$srch->addMultipleFields(array('t.task_id', 't.task_topic', 'b.bid_id', 'IF(m.tskmsg_user_id=' . User::getLoggedUserAttribute('user_id') . ', "Me", IF(u.user_type = 1,u.user_screen_name,u.user_first_name)) AS sender', 'm.tskmsg_msg'));
+		
+		$rs = $srch->getResultSet();
+		
+		return $db->fetch_all($rs);
+	}
+	
+	public function getConversationHistory($bid_id) {
+		$db = &Syspage::getdb();
+		
+		//Mark messages as read
+		$this->markMessagesAsRead($bid_id);
+		
+		$srch = new SearchBase('tbl_task_updates', 'm');
+		
+		$srch->joinTable('tbl_users', 'INNER JOIN', 'm.tskmsg_user_id=u.user_id', 'u');
+		
+		$srch->addCondition('tskmsg_bid_id', '=', $bid_id);
+		
+		$srch->addOrder('tskmsg_date');
+		
+		$srch->addMultipleFields(array('m.*', 'IF(m.tskmsg_user_id=' . User::getLoggedUserAttribute('user_id') . ', "Me", IF(u.user_type = 1,u.user_screen_name,u.user_first_name)) AS sender'));
+		
+		$rs = $srch->getResultSet();
+		
+		return $db->fetch_all($rs);
+	}
+	
+	public function getMessageDetails($msg_id) {
+		$db = &Syspage::getdb();
+		
+		$srch = new SearchBase('tbl_task_updates', 'm');
+		
+		$srch->joinTable('tbl_users', 'INNER JOIN', 'm.tskmsg_user_id=u.user_id', 'u');
+		
+		$srch->addCondition('m.tskmsg_id', '=', $msg_id);
+		
+		$srch->addMultipleFields(array('m.*', 'u.user_screen_name'));
+		
+		$rs = $srch->getResultSet();
+		
+		if (!$row = $db->fetch($rs)) return false;
+		
+		return $row;
+	}
+	
+	public function getUnreadMessageCount() {
+		$db = &Syspage::getdb();
+		
+		$srch = new SearchBase('tbl_task_updates', 'm');
+		
+		$srch->joinTable('tbl_bids', 'INNER JOIN', 'b.bid_id=m.tskmsg_bid_id', 'b');
+		$srch->joinTable('tbl_tasks', 'INNER JOIN', 'b.bid_task_id=t.task_id', 't');
+		
+		$cnd = $srch->addCondition('b.bid_user_id', '=', User::getLoggedUserAttribute('user_id'));
+		$cnd->attachCondition('t.task_user_id', '=', User::getLoggedUserAttribute('user_id'));
+		
+		$srch->addDirectCondition('IF(b.bid_user_id=' . User::getLoggedUserAttribute('user_id') . ', m.tskmsg_user_id=t.task_user_id, m.tskmsg_user_id=b.bid_user_id)');
+		
+		$srch->addCondition('m.tskmsg_viewed', '=', 0);
+		
+		$srch->addFld('COUNT(*) AS unread_messages');
+		
+		$rs = $srch->getResultSet();
+		
+		return $db->fetch($rs);
+	}
+	
+	public function getBidUpdates($data) {
+		$db = &Syspage::getdb();
+		
+		$srch = new SearchBase('tbl_task_updates', 'm');
+		
+		$srch->joinTable('tbl_users', 'INNER JOIN', 'm.tskmsg_user_id=u.user_id', 'u');
+		
+		$srch->addCondition('m.tskmsg_bid_id', '=', $data['bid_id']);
+		$srch->addCondition('m.tskmsg_user_id', '!=', User::getLoggedUserAttribute('user_id'));
+		$srch->addCondition('m.tskmsg_viewed', '=', 0);
+		
+		$srch->addOrder('tskmsg_date');
+		
+		$srch->addMultipleFields(array('m.*', 'IF(u.user_type = 1,u.user_screen_name,user_first_name) AS sender'));
+		
+		$rs = $srch->getResultSet();
+		
+		if (!$arr = $db->fetch_all($rs)) return false;
+		
+		//Mark messages as read
+		$this->markMessagesAsRead($data['bid_id']);
+		
+		return $arr;
+	}
+	
+	public function getUsers($filter='',$status) {
+		$db = &Syspage::getdb();
+		
+		$srch = new SearchBase('tbl_tasks', 't');
+		
+		$srch->joinTable('tbl_bids', 'INNER JOIN', 't.task_id=b.bid_task_id', 'b');
+		$srch->joinTable('(select * from tbl_task_updates order by tskmsg_date desc)', 'INNER JOIN', 'b.bid_id=m.tskmsg_bid_id', 'm');
+		$srch->joinTable('tbl_users', 'INNER JOIN', 'IF(t.task_user_id=' . User::getLoggedUserAttribute('user_id') . ', u.user_id=b.bid_user_id, u.user_id=t.task_user_id)', 'u');
+		
+		$cnd = $srch->addCondition('t.task_user_id', '=', User::getLoggedUserAttribute('user_id'));
+		$cnd->attachCondition('b.bid_user_id', '=', User::getLoggedUserAttribute('user_id'));
+		
+		$srch->addCondition('t.task_status', '>',0);
+		
+		if($status == 'read') {
+			$srch->addCondition('m.tskmsg_viewed', '=',1);
+		}
+		
+		if($status == 'unread') {
+			$srch->addCondition('m.tskmsg_viewed', '=',0);
+			$srch->addCondition('m.tskmsg_user_id', '!=',User::getLoggedUserAttribute('user_id'));
+		}
+		
+		if($status == 'starred' && User::isWriter()) {
+			$srch->addCondition('b.bid_is_starred_by_writer', '=',1);
+		}elseif($status == 'starred' && !User::isWriter()){
+			$srch->addCondition('b.bid_is_starred_by_customer', '=',1);
+		}
+		
+		if ($filter != '') {
+			$cnd = $srch->addCondition('t.task_ref_id', 'LIKE', '%' . $filter . '%');
+			$cnd->attachCondition('u.user_screen_name', 'LIKE', '%' . $filter . '%');
+		}
+		
+		$srch->addGroupBy('b.bid_id');
+		
+		$srch->addMultipleFields(array('u.user_id','m.tskmsg_user_id', 'IF(u.user_type = 1,u.user_screen_name,user_first_name) as user_screen_name', 't.task_ref_id', 'b.bid_id', 'm.tskmsg_date AS last_updated_on', 'SUM(CASE WHEN m.tskmsg_viewed = 0 and  m.tskmsg_user_id!=' . User::getLoggedUserAttribute('user_id') . ' THEN 1 ELSE 0 END) AS unread_messages', 'CASE WHEN UNIX_TIMESTAMP(u.user_last_activity) > UNIX_TIMESTAMP(DATE_SUB(NOW(), INTERVAL 60 SECOND)) THEN 1 ELSE 0 END AS user_status','IF(u.user_type = 1,b.bid_is_starred_by_customer,b.bid_is_starred_by_writer) as bid_is_starred', 'm.tskmsg_msg','GROUP_CONCAT(tskmsg_date) as grouped_tskmsg_date', 'GROUP_CONCAT(tskmsg_msg,"######") as grouped_tskmsg_msg'));
+		
+		$srch->addOrder('last_updated_on', 'desc');
+		//echo $srch->getQuery();die;
+		$rs = $srch->getResultSet();
+		
+		return $db->fetch_all($rs);
+	}
+	
+	public function markMessagesAsRead($bid_id) {
+		$db = &Syspage::getdb();
+		
+		$qry = $db->update_from_array('tbl_task_updates', array('tskmsg_viewed'=>1), array('smt'=>'tskmsg_bid_id = ? AND tskmsg_user_id != ?', 'vals'=>array($bid_id, User::getLoggedUserAttribute('user_id')), 'execute_mysql_functions'=>false));
+		
+		if (!$qry) {
+			$this->error = $db->getError();
+			return false;
+		}
+		
+		return true;
+	}
+	
+	public function updateStarStatus($bid_id){
+		$db = &Syspage::getdb();
+		$srch = new SearchBase('tbl_bids');
+		$srch->addCondition('bid_id','=',$bid_id);
+		if(!User::isWriter()) {
+			$srch->addFld('bid_is_starred_by_customer as bid_starred');
+		}else {
+			$srch->addFld('bid_is_starred_by_writer as bid_starred');
+		}
+		$rs = $srch->getResultSet();
+		$row = $db->fetch($rs);
+		
+		if($row['bid_starred'] == 1) {
+			$bid_starred = 0;
+		}else {
+			$bid_starred = 1;
+		}
+		
+		if(!User::isWriter()) {
+			$qry = $db->update_from_array('tbl_bids', array('bid_is_starred_by_customer'=>$bid_starred), array('smt'=>'bid_id = ?', 'vals'=>array($bid_id)));
+		}else {
+			$qry = $db->update_from_array('tbl_bids', array('bid_is_starred_by_writer'=>$bid_starred), array('smt'=>'bid_id = ?', 'vals'=>array($bid_id)));
+		}
+		if (!$qry) {
+			$this->error = $db->getError();
+			return false;
+		}
+		
+		return true;
+	}
+}

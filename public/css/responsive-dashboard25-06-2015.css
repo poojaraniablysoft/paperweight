@@ -1,0 +1,1849 @@
+@charset "utf-8";
+/* CSS Document */
+
+ @media screen and (min-width:1300px) and (max-width: 1599px) {
+.choicewriter .grid_1 {
+width:16%;
+}
+.choicewriter .grid_2 {
+ width:84%;
+}
+.funds .grid-4 {
+ width:55%;
+}
+.funds .grid-5 {
+ width:45%;
+}
+.sortwrap .inputbox {
+ min-width:174px;
+}
+}
+ @media screen and (max-width: 1450px) {
+ .place-bid .grid_1 {
+ width:24%;
+}
+.place-bid .grid_2 {
+ width:76%;
+}
+.place-bid .grid_4 {
+ width: 17%;
+}
+.place-bid .grid_3 {
+ width: 83%;
+}
+ .right-penal tr td {
+ padding:14px 0 13px 0; 
+}
+ .recent-messages li .right-side {
+ padding-bottom:2px;
+}
+ .gray-box {
+ padding:18px;
+}
+/* .grid_12 .cols_1 .white-box {
+ min-height:207px;
+}*/
+.white-box {
+ padding:17px;
+}
+ul.list-order li .gray-box {
+ margin-top:15px;
+}
+.assigned-writer ul li .gray-box {
+ margin-top:0px !important;
+}
+ul.list-order li {
+ padding:0 10px;
+}
+img {
+ max-width:100%;
+}
+.place-bid  .assigned-writer .grid_1 {
+ width:60%;
+}
+.assigned-writer .grid_2 {
+ width:40%;
+ padding-left:17px;
+}
+
+.right-penal {
+ width:25.5%;
+}
+.right-penal tr td input[type="text"] {
+ max-width:100px;
+}
+.right-penal h3 {
+ font-size:20px;
+}
+}
+ @media screen and (max-width: 1399px) {
+ .earnigs-page .grid_6 {
+ width:65%;
+}
+.earnigs-page .grid_7 {
+ width:35%;
+}
+ .earnigs-page .grid_7 .white-box {
+ position:static;
+}
+.earnigs-page .grid_7 .white-box, .earnigs-page .grid_6 .white-box {
+ min-height:50px;
+}
+.file-type {
+ width:92%;
+}
+table.upload-fils tr td {
+ border: medium none;
+ padding: 0 5px 12px 0;
+}
+.assigned-writer .writer-info .img-sect {
+ /* max-width:110px; */
+}
+.assigned-writer .grid_2 .gray-box {
+ font-size:20px;
+ line-height:28px;
+}
+.margin20, .assigned-writer ul li .margin20 {
+ margin-top:17px;
+}
+.writer-info .ratingsWrap {
+ padding-bottom:4px;
+}
+.rating-table-height {
+ height:406px;
+}
+.change-order-details {
+ padding-top:15px;
+}
+.change-order-details .left-align .theme-btn {
+ margin-right:10px;
+ padding:10px 20px;
+}
+.right-penal .tooltips span:before {
+ left:57%;
+}
+.right-penal .tooltips span {
+ left:-450%
+}
+}
+ @media screen and (min-width:1200px) and (max-width: 1300px) {
+ .innerpart {
+ padding-bottom:4px;
+}
+ .user-list h2 {
+ padding-bottom:5px;
+}
+.funds h2{
+	padding-bottom:0px;
+}
+
+.heading {
+}
+ .page-sidebar {
+ width:240px;
+}
+ .page-container {
+ padding-left:240px;
+}
+ .heading {
+ padding-left:258px;
+padding-right:20px;
+}
+.sectionTitle {
+ margin-bottom:17px;
+}
+.place-bid .grid_1 {
+ padding-right: 20px;
+ width: 22%;
+}
+.place-bid .grid_2 {
+ padding-left: 20px;
+ width: 78%;
+}
+.place-bid .grid_3 {
+ width:83%;
+}
+.place-bid .grid_4 {
+ width:17%;
+}
+.right-penal {
+ width:24.1%;
+}
+.right-penal tr td {
+ font-size:14px;
+}
+.right-penal tr td input[type="text"] {
+ max-width:80px;
+ padding:0px;
+}
+.place-bid .gray-box {
+ padding:15px;
+}
+.db-nav li a {
+ padding-left:40px;
+}
+.sortwrap .inputbox {
+ min-width:165px;
+}
+.padding_30 {
+ margin-top:20px;
+}
+.user-list {
+ padding-top:20px;
+}
+.formTable input[type="submit"] {
+ font-size:17px;
+}
+.withdrawal table tr td {
+ padding:0 5px 5px 0;
+}
+.assigned-writer ul.list-order li h6 {
+line-height:100px;
+ font-size:24px;
+}
+.choicewriter .grid_2 {
+ width:83%;
+}
+.choicewriter .grid_2 td:first-child {
+ width:20%;
+}
+.assigned-writer .grid_2 .gray-box {
+ font-size:21px;
+}
+.margin20, .assigned-writer ul li .margin20 {
+ margin-top:17px;
+}
+.assigned-writer .grid_2 .gray-box {
+ padding:10px;
+ display: table;
+ padding: 10px;
+ width: 100%;
+ line-height:39px;
+}
+.assigned-writer .grid_2 .icon {
+ height:39px;
+ float:left;
+}
+.rate-review .cols_4 {
+ padding-right:20px;
+}
+.my-profile .sectionphoto {
+ padding-right:15px;
+}
+.my-profile .sectioninfo {
+ padding-left:13px;
+}
+.sectioninfo .grid_2 {
+ padding-left:15px;
+ width:35%;
+}
+.my-profile .grid_1 {
+ width:65%;
+}
+.my-profile td {
+ font-size:13px;
+}
+.assigned-writer .writer-info .img-sect {
+/*  max-width:100px; */
+}
+.choicewriter .grid_1 {
+width:18%;
+padding-right:20px;
+}
+.choicewriter .grid_2 {
+ width:82%;
+ padding-left:20px;
+}
+.rating-table, .previewwrap{
+	height:345px;
+}
+.recent-messages.white-box{
+	min-height:160px;
+}
+}
+ @media screen and (max-width: 1199px) {
+	 .db-logo{
+		 border-bottom:none;
+	 }
+ .withdrawal table tr td {
+ padding:0 5px 5px 0;
+}
+ .padding_30 {
+ margin-top:20px;
+}
+.db-content #footer{
+	margin-top:25px;
+}
+ .db-content {
+ padding:70px 20px 0px 20px;
+}
+ .user-list {
+ padding-top:25px;
+}
+ .gray-box {
+ padding:12px;
+}
+ .db-logo {
+ background:none;
+}
+ .page-container {
+ padding-left:0px;
+}
+ .mob-show, .tablet-show {
+ display:block;
+}
+ .mob-hide {
+ display:none;
+}
+.heading {
+ background:#22313c;
+ padding-bottom:10px;
+ padding-left:20px;
+ padding-top:15px;
+}
+.db-logo {
+ float:left;
+ padding:0px;
+}
+.heading .right-side ul li .icon, .db-content .my-account > a {
+ background:#009148;
+}
+.page-sidebar {
+ width:100%;
+ position:fixed;
+ height:auto;
+ z-index:4;
+ padding-top:62px;
+}
+.green-bg {
+ background-color: #10762d;
+}
+.green-bg ul {
+ padding-bottom:10px;
+}
+.db-nav {
+ display:none;
+ position:relative;
+}
+.mob-nav {
+ display:inline-block;
+ color:#fff;
+ font-size:23px;
+ vertical-align:top;
+ margin-left:30px;
+ float:left;
+ width:50px;
+}
+.icon.ion-navicon-round {
+ border: 1px solid #fff;
+ border-radius: 3px;
+ margin-left: 0;
+ padding: 0 10px;
+}
+h1.mob-show {
+ color: #3e434a;
+ font-size: 25px;
+ padding-bottom:15px;
+ padding-top:10px;
+}
+
+.total-bids .theme-btn {
+ padding:3px 10px;
+ text-align:center;
+}
+.mob-green-bg {
+ background:#009148;
+}
+.right-side.green-icon li a> .icon, .db-content  .right-side.green-icon .my-account > a {
+ background:#253c4d;
+}
+.db-nav li a {
+ padding-left:17px;
+}
+/*.right-side ul.drop-down {
+ right:20px;
+}*/
+.my-profile .sectionphoto {
+ width:16%;
+ padding-right:10px;
+}
+ .my-profile .sectioninfo {
+ width:84%;
+ padding-left:8px;
+}
+.sortwrap .inputbox {
+ min-width:150px;
+}
+.place-bid .grid_1 {
+ width:25%;
+ padding-right:20px;
+}
+.place-bid .grid_2 {
+ width:75%;
+ padding-left:18px;
+}
+.place-bid .grid_4 {
+ width:17%;
+}
+.place-bid .grid_3 {
+ width:83%;
+}
+.assigned-writer .writer-info .img-sect {
+ max-width:123px;
+}
+.place-bid .left-penal {
+ width:70%;
+}
+.right-penal {
+ width:28.3%;
+}
+.right-penal tr td {
+ font-size:14px;
+}
+ .place-bid .gray-box {
+ padding:15px;
+}
+
+.order-details .order-info td {
+ font-size:13px;
+}
+
+.withdrawal {
+ margin:0 auto;
+ max-width:500px;
+}
+.user-list h2 {
+ font-size:19px;
+ font-weight:400;
+}
+.choicewriter .grid_1 {
+width:18%;
+padding-right:20px;
+}
+.choicewriter .grid_2 {
+ width:82%;
+ padding-left:20px;
+}
+.choicewriter .grid_2 td:first-child {
+ width:20%;
+}
+.margin20, .assigned-writer ul li .margin20 {
+ margin-top:15px;
+}
+.assigned-writer .grid_2 {
+ width:40%;
+ padding-left:15px;
+}
+.assigned-writer .writer-info .img-sect {
+ /* width:119px; */
+}
+.assigned-writer .grid_2 .gray-box {
+ font-size:20px;
+ display:table;
+width:100%;
+line-height:40px;
+}
+.chatscroll {
+ height:310px;
+}
+.assigned-writer .icon {
+ float:left;
+}
+.rate-review .cols_4 {
+ padding-right:20px;
+}
+.my-profile .grid_1 {
+ width:63%;
+}
+.my-profile .grid_2 {
+ width:37%;
+ padding-left:15px;
+}
+.nrmltxt {
+ font-size:12px;
+}
+.view-bids {
+ margin-top:7px;
+ padding:3px 15px 3px 5px;
+}
+.view-bids:after{
+	top:8px;
+}
+
+
+.change-order-details .left-align .theme-btn {
+ margin-right:6px;
+}
+.Support{
+	padding:0px;
+}
+}
+ @media screen and (max-width:1100px) {
+ .sectionMsgs .grid_1 {
+ width: 30%;
+}
+.sectionMsgs .grid_2 {
+ width: 68%;
+}
+.assigned-writer ul li h3 {
+ font-size:18px;
+ padding-bottom:5px;
+}
+.assigned-writer ul.list-order li h6 {
+ line-height:71px;
+ font-size:23px;
+}
+.assigned-writer ul li .gray-box {
+margin:0px;
+}
+.chatscroll.chatscroll-min-height {
+ height:240px;
+}
+.assigned-writer .grid_2 .gray-box .theme-btn{
+	padding:10px 0;
+}
+ .bid_declined .redtag{	
+  position: relative;
+  margin:15px  0 0 0;
+  max-width:150px;
+  }
+  .place-bid .right-penal{
+  min-height:20px !important;
+
+}
+.approve_div p{line-height:normal;}
+
+
+}
+ @media screen and (min-width:900px) and (max-width: 1023px) {
+ .place-bid .grid_2 {
+ width:80%;
+}
+.place-bid .grid_1 {
+ width:20%;
+}
+.recent-messages.white-box{
+	min-height:162px;
+}
+}
+ @media screen and (min-width:768px) and (max-width: 1023px) {
+.orgtag, .regtag, .greenytag, .bluetag, .redtag, .whitetag, .greentag{
+	padding:0 7px;
+}
+
+/* edit 22/04/2015--*/
+
+ .Payment-method-div .symbolfield{
+	width:130px;
+}
+.reserve-Money-div .formTable tr td{
+	padding-right:17px;
+}
+.msgcontainer .msg_text{
+	width:22%;
+}
+.last-msg{
+	width:49%;
+}
+.sectionTitle .theme-btn{
+padding:10px 15px;
+}
+.page-container #footer .fix-container{
+	padding:0 20px;
+}
+.approve_div{
+	margin-bottom:20px;
+}
+.dataTable> .table-scroll table{
+	min-width:800px;
+}
+.table-scroll {
+    overflow-x: scroll;
+    overflow-y: visible;
+}
+
+ }
+ @media only screen and (max-width: 980px) {
+	 .assigned-writer .grid_2 .gray-box .theme-btn{
+	padding:9px 0;
+}
+ .sectionTitle {
+ margin-bottom:13px;
+}
+ .place-bid .grid_2 {
+ padding-left:15px;
+}
+ ul.list-order li {
+ width:50%;
+}
+.gray-box {
+ padding:20px;
+}
+.grid_12 .cols_1 {
+ width:100%;
+}
+.grid_12 .cols_1 .white-box {
+ min-height:150px;
+}
+/*.user-list table td, .user-list table th {
+ font-size:12px;
+}*/
+.grid_12 .cols_1 .recent-messages.white-box{
+	min-height:50px;
+}
+
+.total-bids .writer-img {
+ float:none;
+}
+.right-aling {
+ margin-top:25px;
+}
+.sectionMsgs .grid_1 {
+ width: 100%;
+ margin-bottom:25px;
+}
+.sectionMsgs .grid_2 {
+ width: 100%;
+}
+.scrollWrap, .sectionMsgs .grid_2 .scrollWrap {
+ height:auto;
+}
+.sectionMsgs .grid_2 .scrollWrap {
+ max-height:300px;
+}
+.inbox-nav {
+ background: none repeat scroll 0 0 #253c4d;
+ border-radius: 3px;
+ color: #fff;
+ display: block;
+ float: right;
+ font-size: 35px;
+ height: 47px;
+ text-align: center;
+ width: 50px;
+}
+.rating-table, .previewwrap {
+ height:auto;
+ min-height:200px;
+}
+.searchbox {
+ float:left;
+ width:91%;
+ padding:5px;
+ margin-bottom:0px;
+}
+.sectionMsgs .grid_1 .rtabs {
+ display:none;
+}
+.my-profile .sectioninfo {
+ width:75%;
+ padding-left:15px;
+}
+.my-profile .grid_1 {
+ width:100%;
+}
+.my-profile .grid_2 {
+ width:100%;
+ padding:0 0 15px 0;
+}
+.sectioninfo .userinfo .photo {
+ margin:0 auto;
+}
+ .dataTable {
+ padding:8px;
+}
+ .right-penal {
+ float: left;
+ margin-top: 20px;
+ padding: 18px 28%;
+ position: relative;
+ width: 100%;
+}
+ .place-bid .left-penal {
+ width: 100%;
+ display:inline-block;
+}
+.place-bid .right-penal{
+width: 100%;
+ display:inline-block;
+ border:none;
+ margin-top:15px;
+}
+.right-penal tr td input[type="text"] {
+ max-width: 96%;
+ margin-left:4px;
+  height:38px;
+ 
+}
+.previewwrap1 {
+ height:auto;
+}
+.floatedList li {
+ padding:0 5px;
+ margin:0px;
+ font-size:13px;
+}
+
+.padding_30 {
+ margin-top:20px;
+}
+.change-order-details .theme-btn {
+ margin-top: 5px;
+ text-align: center;
+ /* width: 32.5%; */
+ padding:7px 10px;
+ font-weight:normal;
+ font-size:13px;
+}
+.change-order-details .left-align .theme-btn {
+ margin-right:5px;
+}
+.floatedList{
+margin:7px 0;
+}
+.sortwrap{padding:5px;}
+.floatedList li {
+ font-size:12px;
+ padding:0 3px;
+}
+.user-list ul.completed-order li a {
+ padding:7px 17px;
+ font-size:15px;
+}
+.assigned-writer ul li {
+ width:50%;
+}
+/*.writer-info .img-sect {
+ width:70px;
+}
+.grid_12 .cols_1 .writer-info .img-sect {
+	width:auto;
+}*/
+ .rate-review .cols_4, .rate-review .cols_5 {
+ width:100%;
+ display:inline-block;
+ padding-right:0px;
+}
+.rate-review .cols_4 {
+ margin-bottom:20px;
+}
+.order-complete {
+ padding-top:20px;
+}
+.rate-review table tr td {
+ padding:10px 0;
+}
+table.upload-fils tr td {
+ padding: 0 5px 12px 0;
+}
+.file-type {
+ width: 92.5%;
+}
+.chatscroll {
+ height:240px;
+}
+.change-order-details a.right-aling.theme-btn {
+ float:right !important;
+ padding:10px 20px;
+margin-right:5px !important;
+}
+ul.list-order> li.width50 {
+ width:50%;
+}
+.choicewriter .grid_1 {
+ width:23%;
+}
+.choicewriter .grid_2 {
+ width:77%;
+}
+.choicewriter .grid_2 td:first-child {
+ width:32%;
+}
+.choicewriter .theme-btn {
+ margin-bottom: 5px;
+ text-align: center;
+ width: 100%;
+ padding:10px 5px;
+}
+.choicewriter td p {
+ font-size:13px;
+}
+.review-page .sectionphoto {
+ width:15%;
+}
+.writer-review {
+ width:83%;
+}
+.review-page h2 {
+ font-size:18px;
+}
+.place-bid .assigned-writer .grid_1 {
+ width:100%;
+ margin-bottom:15px;
+ padding-right:0px;
+}
+.assigned-writer .grid_2 {
+ width:100%;
+ padding-left:0px;
+}
+.assigned-writer .grid_2 .gray-box {
+ font-size:22px;
+ display:table;
+width:49%;
+float:left;
+line-height:40px;
+}
+.assigned-writer .grid_2 .gray-box + .gray-box {
+ float:right;
+}
+.gray-box.margin20 {
+ margin:0px;
+}
+.chatscroll {
+ height:276px;
+}
+/*#order-nav li{
+	display:block;
+float:left;
+}*/
+.place-bid .grid_3 {
+ width:78%;
+}
+.place-bid .grid_4 {
+ width:22%;
+ padding-right:15px;
+}
+.my-profile .sectionphoto {
+ width:25%;
+ padding-right:15px;
+}
+.order-wrapper .browser-order .close {
+ padding:12px 13px;
+}
+.order-wrapper .browser-order {
+ font-size:15px;
+}
+.right-penal .theme-btn {
+ width:50%;
+ float:right;
+}
+.right-penal tr:last-child td {
+ border-bottom:0px;
+}
+ .withdrawal-writer .formTable tr td {
+ width:100%;
+ display:block;
+ padding:0 0 15px 0;
+}
+.withdrawal-writer .formTable td .theme-btn {
+ margin-top:0px;
+}
+.withdrawal-writer table tr:last-child td {
+ padding-bottom:10px;
+}
+
+.right-penal .tooltips span {
+ margin-left:-14px;
+}
+.right-penal .tooltips span:before {
+ left:30%;
+}
+.user_msg {
+ width:17%;
+}
+
+.order-page .sortwrap tr td {
+ text-align:left;
+}
+.sortwrap .filter-table table td {
+ display:block;
+}
+.sortwrap .filter-table td .theme-btn {
+ width:100%;
+ margin-top:19px;
+}
+.dataTable .theme-btn {
+ line-height:normal;
+ height:auto;
+ padding:5px 10px;
+}
+.sortwrap .filter-table table tr td {
+ vertical-align:top;
+}
+.change-order-details {
+ padding-top:0px;
+margin-right:-5px;
+}
+.funds .grid-4, .funds .grid-5 {
+ width:100%;
+ padding-left:0px;
+}
+.funds .grid-5{
+	padding-top:15px;
+}
+.Support table tr td input[type="text"]{
+	width:95%;
+}
+.db-content #footer .wrapgray ~ .fix-container{
+	padding:0 10px;
+}
+
+
+}
+ @media only screen and (width: 980px) {
+ .place-bid .grid_1 {
+ width: 19%;
+}
+ .place-bid .grid_2 {
+ width: 81%;
+}
+}
+ @media screen and (max-width:767px) {
+	 .db-content{
+		 padding-left:10px;
+		 padding-right:10px;
+	 }
+	 .db-content #footer{
+		 margin-top:10px;
+	 }
+	 .wrapgray .left-penal{
+		 width:65%;
+	 }
+ .user-list .innerpart .formTable tr td table {
+ max-width:100%;
+ min-width:100%;
+}
+.page-container #footer .fix-container{
+	padding:0 10px;
+}
+ .msgcontainer .msg_text {
+ width:65.5%;
+}
+.page-sidebar {
+    max-height: 300px;
+    overflow: scroll;
+}
+
+ .sortwrap tr td {
+ padding-left: 0px;
+ vertical-align: middle;
+ text-align:left;
+display:block;
+width:100%;
+}
+.view-bids:after{
+	top:8px;
+}
+.sortwrap tr td:last-child {
+ text-align:left;
+}
+ .view-bids {
+ margin-top:5px;
+ padding:3px 15px 3px 5px;
+}
+ .Support td h3 {
+font-size:20px;
+}
+.Support td h3 .icon {
+ vertical-align:top;
+}
+ .right-penal .theme-btn {
+ width:100%;
+ float:left;
+}
+ .grid_12 .cols_1 .white-box {
+ max-height:auto;
+}
+ .recent-messages ul {
+ max-height:300px;
+}
+ .cancel-wrap {
+ margin-top:10px;
+}
+ .cancel-wrap .theme-btn {
+ margin-right:5px;
+}
+ .assigned-writer .grid_1 {
+ margin-bottom:10px;
+}
+ .grid_12 {
+ padding-top:15px;
+}
+ .heading {
+ padding-top:10px;
+ padding-right:10px;
+ padding-left:10px;
+ padding-bottom:8px;
+}
+/*.right-side ul.drop-down {
+ right:15px;
+}*/
+
+h1.mob-show {
+ padding-bottom:10px;
+ padding-top:0px;
+}
+.assigned-writer .total-price li+li {
+ margin-top:10px;
+}
+.white-box {
+ padding:8px;
+}
+ ul.list-order {
+ margin:0px;
+}
+ ul.list-order li {
+ width:100%;
+ padding:0px;
+}
+ ul.list-order li .gray-box {
+ margin-top:10px;
+}
+ .recent-messages li .right-side {
+ width:85%;
+}
+.table-scroll {
+ overflow-x:scroll;
+ overflow-y:visible;
+}
+.user-list table, .table-scroll table  {
+ min-width:900px;
+}
+.user-list ul.completed-order li a {
+ padding:10px;
+ font-size:13px;
+}
+ .user-list ul.completed-order li a:hover, .user-list ul.completed-order li a.active {
+ padding-bottom:20px;
+}
+.mobile-hide {
+ display:none;
+}
+.mob-nav {
+ float:left;
+ margin-left:0px;
+}
+.page-sidebar {
+ padding-top:54px;
+}
+.order-wrapper .browser-order .close {
+ border-radius:5px;
+ background:#1c2b36;
+ padding:3px 10px;
+ font-size:14px;
+}
+.order-wrapper .browser-order .order {
+ display:inline-block;
+ margin-top:5px;
+}
+.recent-messages h2 {
+ font-size:15px;
+}
+.user-list ul.completed-order li a:hover, .user-list ul.completed-order li.selected a {
+ padding-bottom:20px;
+}
+.copyright {
+ position:static;
+ text-align:center;
+ padding:15px 0;
+}
+.searchbox {
+ width:90%;
+}
+.right-penal tr td input[type="text"]{
+max-width:90%;
+}
+.my-profile .sectionphoto, .my-profile .sectioninfo {
+ width:100%;
+ padding-right:0px;
+ margin-bottom:5px;
+}
+.my-profile .sectionphoto {
+ margin-bottom:10px;
+}
+ .my-profile .sectioninfo {
+ border-top:1px solid #ddd;
+ padding:10px 0 0 0;
+ border-left:0px;
+}
+ .my-profile .infoTable td:first-child {
+ max-width:100%;
+}
+.my-profile .grid_1, .my-profile .grid_2 {
+ width:100%;
+}
+.my-profile .grid_1 {
+ margin-bottom:20px;
+}
+.my-profile .sectioninfo .grid_1 {
+ margin-bottom:0px;
+}
+ .my-profile table td {
+ display:block;
+ width:100%;
+ padding:0px 0 5px 0;
+ text-align:left;
+ float:left;
+}
+.my-profile table td:last-child {
+ padding-bottom:15px;
+}
+.my-profile table tr:last-child td:first-child {
+ display:none;
+}
+ .my-profile {
+ margin-bottom:7px;
+}
+.formTable td:first-child {
+ text-align:left;
+}
+.sectionMsgs .userList {
+ width:100%;
+}
+.sectionMsgs p {
+ width:65%;
+}
+.dataTable {
+ overflow-x:scroll;
+}
+.dataTable tr th, .dataTable tr td {
+ font-size:13px;
+ padding:5px;
+ vertical-align:top;
+}
+.place-bid .left-penal {
+ padding:10px;
+}
+ .right-penal {
+ padding:20px;
+}
+.place-bid .grid_1, .place-bid .grid_2 {
+ width:100%;
+}
+.place-bid .grid_1 {
+ padding-right:0px;
+}
+.place-bid .grid_2 {
+border-left:0px;
+border-top:1px solid #d6d7d9;
+padding:10px 0 0 0;
+margin-top:10px;
+}
+.sectionphoto .photo {
+ float:left;
+ max-width:150px;
+ margin-right:20px;
+}
+.place-bid .grid_2 td {
+ padding-right:5px;
+}
+.floatedList li:before {
+ width:0;
+}
+.floatedList li {
+ padding:0 8px 4px 8px;
+ display:inline-block;
+ float:none;
+ vertical-align:middle;
+}
+.floatedList {
+ margin:0px;
+}
+.order-bids h1 {
+ font-size:19px;
+}
+.order-bids .register-form .cols_1 h2 {
+ font-size:16px;
+ padding:0px 0 5px 0;
+ margin:0px;
+}
+.register-form .full-width table.uploads-file td:last-child {
+ padding-bottom:5px;
+}
+.padding_30 {
+ margin-top: 10px;
+}
+.register-form .add-file {
+ margin:3px 0;
+}
+.change-order-details .theme-btn {
+ margin-right:0px;
+ width:100%;
+ font-size:13px;
+ padding:10px 5px;
+}
+ .gray-box {
+ padding:15px;
+}
+.total-bids .writer-img {
+ float:none;
+}
+.total-bids tr td p {
+ font-size:13px;
+}
+.Support table td {
+ display:block;
+ width:100%;
+ padding:0 0 0px 0;
+}
+
+ .order-complete {
+ padding:8px 0 0 0;
+}
+.order-complete p {
+ line-height:40px;
+}
+.sectionTitle {
+ margin-bottom:6px;
+}
+.sectionTitle h4 {
+ font-size:18px;
+}
+ .assigned-writer ul li:first-child {
+ margin-bottom:0px;
+}
+.assigned-writer ul.list-order li h6 {
+ font-size:21px;
+}
+.assigned-writer .writer-info {
+ padding-bottom:0px;
+}
+.right-aling {
+ margin-top:15px;
+}
+.user-list {
+ font-size:18px;
+ padding-top:13px;
+}
+.user-list h2 {
+ font-size:18px;
+ padding-bottom:5px;
+}
+.funds  h2{
+	padding-bottom:0px;
+	line-height:35px;
+}
+
+.funds .blockpayments{
+	padding:0px;
+}
+ul.list-order > li.width50 {
+ width:100%;
+}
+.previewwrap {
+ height:300px;
+}
+.choicewriter .grid_1, .choicewriter .grid_2 {
+ width:100%;
+}
+ .choicewriter .grid_2 {
+ padding:10px 0 0 0;
+ border-left:0px;
+ border-top:1px solid #ddd;
+ margin-top:10px;
+}
+.border-box {
+ padding:10px;
+}
+.user-list table.order-info {
+ min-width:100%;
+}
+.user-list h2 span {
+ vertical-align:bottom;
+}
+.light-gray-box {
+ padding:10px;
+}
+.user-list .rate-review table {
+ min-width:100%;
+}
+.assigned-writer .total-price li {
+ width:100%;
+ padding:0px 0 0 0;
+}
+.recent-messages li .right-side {
+ width:95%;
+}
+ .upload-fils .file-type {
+ width: 91.5%;
+}
+.sortwrap .inputbox {
+ min-width:172px;
+}
+.user-list table td, .user-list table th {
+ padding:4px 2px;
+}
+ .LPMcontainer.LPMslider {
+ display: none !important;
+}
+.Support table tr td input[type="text"]{
+	width:100%;
+	margin-bottom:10px;
+}
+.Support table td textarea{
+	position:relative;
+	height:80px;
+	margin-bottom:10px;
+}
+.Support table td input[type="submit"]{
+	margin-top:0px;
+	float:none;
+	width:100%;
+}
+.sectionphoto .photo img{
+	max-width:100%;
+	width:auto;
+	
+}
+.approve_div .close {
+  padding: 3px 7px;
+}
+.table-scroll .no_result{
+	text-align:left;
+	padding-left:15px;
+}
+
+.place-bid .right-penal{
+margin-top:10px;
+}
+/*---edit 22/04/2015---*/
+.blockpayments.reserve-Money-div{
+	padding:0px;
+}
+.reserve-Money-div h4{
+	font-size:14px;
+}
+.Payment-method-div{
+	padding-top:10px;
+}
+.Payment-method-div{
+	width:100%;
+}
+.reserve-Money-div .formTable tr td{
+	padding:0 0 10px 0;
+	display:block;
+
+}
+.user_msg{
+	width:65%;
+	padding:3px 0;
+	margin:0 5px;
+}
+.msgcontainer .msg_text{
+	width:100%;
+	padding:2px 0;
+}
+.msg_text h5{
+	float:left;
+}
+.db-content .msg_text p{
+	float:right;
+	font-size:12px;
+}
+.last-msg{
+	width:100%;
+}
+.sectionTitle h4, .order-step h4{
+padding-top:0px;
+}
+.sectionTitle .theme-btn{
+padding:7px 20px;
+}
+.sectionTitle .theme-btn span{
+display:none;
+
+}
+.review-page h2 a{
+padding:2px 8px;
+}
+.review-page h2 a:after{
+top:3px;
+}
+
+.sectionTitle h4 font, .order-step h4 font{
+display:inline-block;
+padding:0px;
+}
+.order-step h4 span, .sectionTitle h4 span{
+padding:3px 10px;
+margin-bottom:5px;
+margin-right:7px;
+vertical-align:middle;
+}
+.change-order-details{
+	margin-right:0px;
+}
+.change-order-details .left-align .theme-btn{
+	margin-right:0px !important;
+}
+.change-order-details a.right-aling.theme-btn{
+	margin-right:0px !important;
+}
+.remove_profile{
+	max-width:200px;
+	margin:0 auto;
+	left:0px;
+	right:0px;
+}
+
+
+}
+ @media(min-width:501px) and (max-width:767px) {
+.sortwrap .filter-table td {
+ width:50%;
+ float:left;
+ padding:0 3px 8px 3px;
+}
+.sortwrap .filter-table td table td {
+ display:block;
+ width:100%;
+ padding
+ padding:2px 0;
+}
+.sortwrap .inputbox {
+ min-width: 100%;
+ line-height:100%;
+}
+.sortwrap tr td .theme-btn {
+ margin-top:19px;
+}
+
+}
+ @media(min-width:480px) and (max-width:767px) {
+ .my-profile .sectionphoto .photo {
+ margin-right:10px;
+}
+ .my-profile .sectionphoto .photo img {
+ display: inline-block;
+ vertical-align: top;
+}
+.my-profile .sectionphoto {
+ text-align:center;
+}
+ .my-profile .sectionphoto .photo {
+ max-width:100%;
+ text-align:center;
+ margin-bottom:5px;
+ margin-right:0px;
+ display:inline-block;
+}
+ .userinfo .boxleft {
+ display:table-cell;
+ padding-right:15px;
+}
+.review-page .sectionphoto {
+ width:22%;
+}
+.writer-review {
+ width:74%;
+}
+.sectionphoto .photo {
+ float: left;
+ margin-right: 10px;
+ max-width: 80px;
+}
+
+/*---29/04/2015--*/
+.layerup .txtlayer {
+margin:10px auto;
+font-size:13px;
+padding:5px;
+}
+.rate-review .cols_4 .white-box  img{max-width:450px;}
+.sectionTitle h4{
+width:61%;
+float:left;
+}
+
+
+}
+@media(max-width:500px) {
+ .sortwrap .filter-table td .theme-btn {
+ margin-top:0px;
+}
+ .upload-fils .file-type {
+ width: 88.5%;
+}
+ .recent-messages li .right-side {
+ width:94%;
+}
+ .no-preview {
+ font-size:18px;
+}
+ .light-gray-box {
+ padding:10px;
+}
+.sectionMsgs h3 {
+ font-size:18px;
+}
+.searchbox {
+ width: 87%;
+}
+.sectionMsgs .grid_2 p {
+ width:70%;
+}
+.sectionMsgs .topCol .datetxt {
+ display:none;
+}
+.sectionMsgs .topCol h2 {
+ font-size:14px;
+}
+.inbox-nav {
+ font-size:32px;
+}
+.order-wrapper .browser-order {
+ font-size:14px;
+ padding:10px 31px 12px 31px;
+}
+
+.choiceTabs li {
+ padding:2px 4px;
+}
+.msgcontainer .msg_text {
+ width:100%;
+}
+.roundtabs li.currenttab:before, .roundtabs li.currenttab:after {
+display:none;
+}
+ .msgcontainer {
+ padding:0px;
+}
+.roundtabs {
+ margin-bottom:10px;
+}
+.choiceTabs .icon {
+ color: #949392;
+ font-size: 12px;
+}
+ .sortwrap .inputbox {
+ min-height:100%;
+ line-height:100%;
+}
+.place-bid .grid_2 td:first-child {
+ width:40%;
+}
+ .blockpayments .cards {
+ float:none;
+ margin-bottom:10px;
+}
+.blockpayments {
+ padding:10px;
+}
+ .blockpayments .formTable td:first-child {
+ padding-bottom:0px;
+}
+.user-list .pagination {
+ padding-bottom:10px;
+}
+.review-page h2 {
+ font-size:18px;
+}
+.user-name {
+ font-size:14px;
+}
+.grid_12 .cols_1 .writer-info h5 {
+ font-size:23px;
+}
+.email .icon {
+ line-height:0px;
+ margin-right:3px;
+}
+.user-list ul.completed-order li {
+ margin-right:2px;
+}
+.user-list ul.completed-order li a:hover, .user-list ul.completed-order li.selected a {
+ padding-bottom:15px;
+}
+.user-list ul.completed-order li a {
+ margin-bottom:3px;
+}
+/*.assigned-writer .writer-info .img-sect {
+ width:100%;
+}*/
+.assigned-writer .grid_2 .gray-box {
+ width:100%;
+}
+.assigned-writer .grid_2 .gray-box + .gray-box {
+ margin-top:10px;
+}
+.symbolfield, .innerpart input[type="submit"] {
+ width:100%;
+}
+.assigned-writer .writer-info .img-sect {
+ /* max-width:70px; */
+ padding-bottom:0px;
+}
+.assigned-writer .writer-info {
+ text-align:left;
+}
+.assigned-writer .grid_1 h3 {
+ padding-bottom:0px;
+}
+.unread .icon {
+ color: #f1c02b;
+}
+.tagtriangle .icon {
+ color:#fff !important;
+}
+.sortwrap tr td:last-child {
+ width:100%;
+ text-align:left;
+}
+ .sortwrap .filter-table table tr td {
+ padding-right:0px;
+}
+.orgtag, .regtag, .greenytag, .bluetag, .redtag, .whitetag {
+ display:inline-block;
+}
+}
+@media(max-width:479px) {
+.floatedList li{
+display:inline;
+float:none;
+}
+ .grid_12 .cols_1 .white-box {
+ text-align:center;
+}
+.recent-messages {
+ text-align:left !important;
+}
+ .grid_12 .cols_1 .white-box.right-aling {
+ text-align:left;
+}
+ .grid_12 .cols_1 .white-box h5 {
+ font-weight:600;
+}
+ .writer-info .img-sect {
+ width:100%;
+ margin-right:0px;
+}
+ .writer-info .img-sect img {
+ display:inline-block;
+}
+ .searchbox {
+ width: 80%;
+}
+.well {
+ width:280px;
+}
+.well table td {
+ display:block;
+ padding-bottom:7px;
+}
+.well table {
+ padding:7px;
+}
+.well h4 {
+ font-size:18px;
+}
+.roundtabs li a {
+ padding:5px 16px;
+ font-size:13px;
+}
+.sectionTitle .theme-btn {
+ text-align:center;
+}
+.sectionphoto .photo {
+ float:none;
+ margin-right:0px;
+ display:block;
+}
+/*.place-bid .grid_2 td{
+	display:block;
+	padding:0 0 0 0;
+	width:100%;
+}*/
+.place-bid .grid_2 tr td:last-child {
+ padding-bottom:10px;
+}
+
+.sectionphoto .photo {
+ max-width:100%;
+ text-align:center;
+ margin-bottom:5px;
+}
+.sectionphoto .photo img {
+ display:inline-block;
+ vertical-align:top;
+}
+.place-bid .grid_1 .sectionphoto {
+ text-align:center;
+}
+.place-bid .grid_1 .ratingsWrap {
+ margin:0 auto;
+}
+.right-penal tr td {
+ width:50%;
+}
+.sectionMsgs .padding-left {
+ padding-left:0px;
+}
+.sectionMsgs .timetxt {
+ font-size:12px;
+}
+.writer-review .ratingsWrap {
+ display:none;
+}
+.writer-review h3 {
+ font-size:17px;
+ padding-bottom:7px;
+}
+.writer-review p {
+ font-size:13px;
+}
+.border-box {
+ padding:10px;
+}
+.order-complete {
+ text-align:center;
+ padding:0px;
+}
+.order-complete p, .order-process1 .theme-btn {
+ float:none;
+ display:inline-block;
+}
+.order-process1 .theme-btn {
+ width:100%;
+ margin-top:5px;
+}
+ .previewwrap {
+ height:200px;
+}
+.sectionTitle h4 {
+ display: table;
+ width: 80%;
+}
+
+.db-content p {
+ font-size:13px;
+}
+.choicewriter .grid_1 {
+ text-align:center;
+ width:100%;
+ padding-right:0px;
+}
+.choicewriter .ratingsWrap {
+ margin:0 auto;
+}
+.choicewriter .grid_2 td:first-child, .choicewriter .grid_2 td {
+ display:block;
+ width:100%;
+ padding:0 0 10px 0;
+}
+.choicewriter .grid_2 td:first-child {
+ padding:0px;
+}
+.choicewriter .grid_2 tr + tr > td+td {
+ padding:0 0 10px 0;
+}
+.review-page .sectionphoto, .writer-review {
+ width:100%;
+}
+.review-page .sectionphoto .ratingsWrap {
+ margin:0 auto;
+}
+.writer-review {
+ margin-top:10px;
+}
+ .blockpayments .formTable td:first-child, .blockpayments .formTable td {
+ display:block;
+ width:100%;
+ padding:0px 0 10px 0;
+}
+.assigned-writer .writer-info .img-sect {
+ width:100%;
+}
+ .my-profile .sectionphoto {
+ text-align:center;
+}
+ .recent-messages li .right-side {
+ width:89%;
+}
+.cancel-wrap {
+ margin:0px;
+}
+.cancel-wrap .theme-btn {
+ margin:10px 0 0 0;
+ width:100%;
+ text-align:center;
+}
+.choicewriter .grid_2 tr:last-child td {
+padding-bottom:0px;
+}
+
+.withdrawal input[type="submit"] {
+ width:100%;
+}
+.innerpart .formTable tr td, .withdrawal .formTable tr td {
+ padding-left:0px;
+ padding-right:0px;
+}
+.upload-fils .file-type {
+ width:84%;
+}
+.sortwrap tr td {
+ padding-left: 0px;
+ vertical-align: top;
+ width: 100%;
+ text-align:left;
+}
+.sortwrap {
+ padding:4px 4px 5px 4px;
+}
+.floatedList li {
+ padding: 0 4px 3px;
+}
+.order-page .sortwrap .filter-table {
+ padding-top:5px;
+}
+.order-page .sortwrap .filter-table table {
+ padding-top:0px;
+}
+ .order-page .sortwrap tr td {
+ padding-left:5px;
+ padding-right:5px;
+}
+.sortwrap tr td .theme-btn {
+ width:100%;
+}
+.sectioninfo .grid_2 .theme-btn {
+ width:100%;
+}
+.sectionTitle .theme-btn {
+float:left;
+margin-top:10px;
+}
+/*---29/04/2015--*/
+.layerup .txtlayer {
+margin:0px auto;
+font-size:12px;
+padding:5px;
+}
+.rate-review .cols_4 .white-box  img{max-width:250px;}
+
+.upload-profile{
+min-width:230px;
+}
+.upload-fils{
+	padding-bottom:12px;
+}
+
+
+table.upload-fils tr td{
+	width:100%;
+	display:block;
+	padding-bottom:0px;
+}
+.upload-fils .file-type{
+	width:100%;
+}
+table.upload-fils tr td .theme-btn{
+	margin-bottom:10px;
+}
+table.radio_buttons{
+	width:100%;
+}
+
+
+
+}

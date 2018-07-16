@@ -1,0 +1,7 @@
+.keywords-wrap {
+    display: block;
+    margin: 10px;
+}
+.keywords-wrap > h2 {
+    font-weight: bold;
+}

@@ -1,0 +1,34 @@
+<form method="post" action="https://www.sandbox.paypal.com/cgi-bin/webscr" name="frmLoadWallet" id="frm_mbs_id_frmLoadWallet" class="siteForm">
+	<table width="100%" cellspacing="0" cellpadding="0" border="0" class="formTable">
+		<tr>
+			<td width="30%">Payment method</td>
+			<td>
+				<table width="100%"><tr><td><input type="radio" name="payment_method" value="0"  title="Payment method" checked /> PayPal</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td width="30%">Amount to be loaded<span class="spn_must_field">*</span></td>
+			<td>
+				<div class="symbolfield"><span class="currency">$</span><input type="text" name="amount" id="amount" value="0"  title="Amount to be loaded" /></div><input type="submit" name="btn_load" id="btn_load" title="" value="Load" />
+			</td>
+		</tr>
+		<tr>
+			<td width="30%"></td>
+			<td><small>By clicking "Load" button, you agree to the <a href="/cms/money_back">Money Back Guarantee</a>, <a href="/cms/terms_conditions">Terms and Conditions</a> and <a target="_blank" href="/cms/privacy_policy">Privacy Policy</a>.</small></td>
+		</tr>
+	</table>
+	<input type="hidden" name="item_name" value="Test Product"  title="" />
+	<input type="hidden" name="quantity" value="1"  title="" />
+	<input type="hidden" name="business" value="Sami@4demo.biz"  title="" />
+	<input type="hidden" name="currency_code" value="USD"  title="" />
+	<input type="hidden" name="rm" value="0"  title="" />
+	<input type="hidden" name="return" value="http://legitpapers.4demo.biz/paid.php"  title="" />
+	<input type="hidden" name="cancel_return" value="http://legitpapers.4demo.biz/user/dashboard"  title="" />
+	<input type="hidden" name="notify_url" value="http://legitpapers.4demo.biz/transactions/validate_transaction"  title="" />
+	<input type="hidden" name="cmd" value="_xclick"  title="" />
+	<input type="hidden" name="custom" value="174658"  title="" />
+</form><script type="text/javascript">//<![CDATA[
+			frmLoadWallet_validator_requirements={"business":{"required":false},"currency_code":{"required":false},"return":{"required":false},"cancel_return":{"required":false},"notify_url":{"required":false},"cmd":{"required":false},"rm":{"required":false},"custom":{"required":false},"payment_method":{"required":false},"amount":{"required":true,"range":{"minval":0.1,"maxval":999999999}},"btn_load":{"required":false},"":{"required":false}};frmLoadWallet_validator_formatting={"errordisplay":"summary","summaryElementId":"validationsummary_frmLoadWallet"};frmLoadWallet_validator=$("#frm_mbs_id_frmLoadWallet").validation(frmLoadWallet_validator_requirements,frmLoadWallet_validator_formatting);
+			//]]></script>

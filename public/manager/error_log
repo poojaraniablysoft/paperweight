@@ -1,0 +1,250 @@
+[29-Feb-2016 17:44:51 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (01-20-2016 08:10) at position 0 (0): Unexpected character' in /home/maxlib/includes/functions.php:0
+Stack trace:
+#0 /home/maxlib/includes/functions.php(0): DateTime->__construct()
+#1 /home/maxlib/includes/functions.php(0): addTimezone()
+#2 /home/y0wr1t3651hr59j5/public_html/demo/admin-application/views/money/total_money_earn.php(75): displayDate('01-20-2016 08:1...', true, true, 'America/Phoenix')
+#3 /home/y0wr1t3651hr59j5/public_html/demo/library/template.class.php(52): include('/home/y0wr1t365...')
+#4 /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/moneycontroller.php(61): Template->render()
+#5 [internal function]: MoneyController->total_money_earn()
+#6 /home/y0wr1t3651hr59j5/public_html/demo/public/includes/framework-functions.php(150): call_user_func_array(Array, Array)
+#7 /home/y0wr1t3651hr59j5/public_html/demo/public/manager/index.php(8): callHook()
+#8 {main}
+  thrown in /home/maxlib/includes/functions.php on line 0
+[10-Mar-2016 09:46:09 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/languagecontroller.php on line 83
+[10-Mar-2016 09:47:03 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/servicescontroller.php on line 81
+[10-Mar-2016 09:47:36 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/disciplinescontroller.php on line 80
+[10-Mar-2016 09:48:20 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/papercontroller.php on line 81
+[10-Mar-2016 09:48:50 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/academiccontroller.php on line 84
+[10-Mar-2016 09:49:18 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/citationcontroller.php on line 84
+[10-Mar-2016 11:07:26 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (11-17-2015 20:13) at position 0 (1): Unexpected character' in /home/maxlib/includes/functions.php:0
+Stack trace:
+#0 /home/maxlib/includes/functions.php(0): DateTime->__construct()
+#1 /home/maxlib/includes/functions.php(0): addTimezone()
+#2 /home/y0wr1t3651hr59j5/public_html/demo/admin-application/views/money/total_money_earn.php(142): displayDate('11-17-2015 20:1...', true, true, 'Asia/Dhaka')
+#3 /home/y0wr1t3651hr59j5/public_html/demo/library/template.class.php(52): include('/home/y0wr1t365...')
+#4 /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/moneycontroller.php(61): Template->render()
+#5 [internal function]: MoneyController->total_money_earn()
+#6 /home/y0wr1t3651hr59j5/public_html/demo/public/includes/framework-functions.php(150): call_user_func_array(Array, Array)
+#7 /home/y0wr1t3651hr59j5/public_html/demo/public/manager/index.php(8): callHook()
+#8 {main}
+  thrown in /home/maxlib/includes/functions.php on line 0
+[10-Mar-2016 11:07:48 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (11-17-2015 20:13) at position 0 (1): Unexpected character' in /home/maxlib/includes/functions.php:0
+Stack trace:
+#0 /home/maxlib/includes/functions.php(0): DateTime->__construct()
+#1 /home/maxlib/includes/functions.php(0): addTimezone()
+#2 /home/y0wr1t3651hr59j5/public_html/demo/admin-application/views/money/total_money_earn.php(142): displayDate('11-17-2015 20:1...', true, true, 'Asia/Dhaka')
+#3 /home/y0wr1t3651hr59j5/public_html/demo/library/template.class.php(52): include('/home/y0wr1t365...')
+#4 /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/moneycontroller.php(61): Template->render()
+#5 [internal function]: MoneyController->total_money_earn()
+#6 /home/y0wr1t3651hr59j5/public_html/demo/public/includes/framework-functions.php(150): call_user_func_array(Array, Array)
+#7 /home/y0wr1t3651hr59j5/public_html/demo/public/manager/index.php(8): callHook()
+#8 {main}
+  thrown in /home/maxlib/includes/functions.php on line 0
+[10-Mar-2016 11:26:33 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (11-17-2015 20:13) at position 0 (1): Unexpected character' in /home/maxlib/includes/functions.php:0
+Stack trace:
+#0 /home/maxlib/includes/functions.php(0): DateTime->__construct()
+#1 /home/maxlib/includes/functions.php(0): addTimezone()
+#2 /home/y0wr1t3651hr59j5/public_html/demo/admin-application/views/money/total_money_earn.php(142): displayDate('11-17-2015 20:1...', true, true, 'Asia/Dhaka')
+#3 /home/y0wr1t3651hr59j5/public_html/demo/library/template.class.php(52): include('/home/y0wr1t365...')
+#4 /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/moneycontroller.php(61): Template->render()
+#5 [internal function]: MoneyController->total_money_earn()
+#6 /home/y0wr1t3651hr59j5/public_html/demo/public/includes/framework-functions.php(150): call_user_func_array(Array, Array)
+#7 /home/y0wr1t3651hr59j5/public_html/demo/public/manager/index.php(8): callHook()
+#8 {main}
+  thrown in /home/maxlib/includes/functions.php on line 0
+[10-Mar-2016 11:27:09 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (11-17-2015 20:13) at position 0 (1): Unexpected character' in /home/maxlib/includes/functions.php:0
+Stack trace:
+#0 /home/maxlib/includes/functions.php(0): DateTime->__construct()
+#1 /home/maxlib/includes/functions.php(0): addTimezone()
+#2 /home/y0wr1t3651hr59j5/public_html/demo/admin-application/views/money/total_money_earn.php(142): displayDate('11-17-2015 20:1...', true, true, 'Asia/Dhaka')
+#3 /home/y0wr1t3651hr59j5/public_html/demo/library/template.class.php(52): include('/home/y0wr1t365...')
+#4 /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/moneycontroller.php(61): Template->render()
+#5 [internal function]: MoneyController->total_money_earn()
+#6 /home/y0wr1t3651hr59j5/public_html/demo/public/includes/framework-functions.php(150): call_user_func_array(Array, Array)
+#7 /home/y0wr1t3651hr59j5/public_html/demo/public/manager/index.php(8): callHook()
+#8 {main}
+  thrown in /home/maxlib/includes/functions.php on line 0
+[10-Mar-2016 11:57:10 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (11-17-2015 20:13) at position 0 (1): Unexpected character' in /home/maxlib/includes/functions.php:0
+Stack trace:
+#0 /home/maxlib/includes/functions.php(0): DateTime->__construct()
+#1 /home/maxlib/includes/functions.php(0): addTimezone()
+#2 /home/y0wr1t3651hr59j5/public_html/demo/admin-application/views/money/total_money_earn.php(142): displayDate('11-17-2015 20:1...', true, true, 'Asia/Dhaka')
+#3 /home/y0wr1t3651hr59j5/public_html/demo/library/template.class.php(52): include('/home/y0wr1t365...')
+#4 /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/moneycontroller.php(61): Template->render()
+#5 [internal function]: MoneyController->total_money_earn()
+#6 /home/y0wr1t3651hr59j5/public_html/demo/public/includes/framework-functions.php(150): call_user_func_array(Array, Array)
+#7 /home/y0wr1t3651hr59j5/public_html/demo/public/manager/index.php(8): callHook()
+#8 {main}
+  thrown in /home/maxlib/includes/functions.php on line 0
+[10-Mar-2016 12:17:26 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/questioncontroller.php on line 71
+[10-Mar-2016 12:56:42 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (11-17-2015 20:13) at position 0 (1): Unexpected character' in /home/maxlib/includes/functions.php:0
+Stack trace:
+#0 /home/maxlib/includes/functions.php(0): DateTime->__construct()
+#1 /home/maxlib/includes/functions.php(0): addTimezone()
+#2 /home/y0wr1t3651hr59j5/public_html/demo/admin-application/views/money/total_money_earn.php(142): displayDate('11-17-2015 20:1...', true, true, 'Asia/Dhaka')
+#3 /home/y0wr1t3651hr59j5/public_html/demo/library/template.class.php(52): include('/home/y0wr1t365...')
+#4 /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/moneycontroller.php(61): Template->render()
+#5 [internal function]: MoneyController->total_money_earn()
+#6 /home/y0wr1t3651hr59j5/public_html/demo/public/includes/framework-functions.php(150): call_user_func_array(Array, Array)
+#7 /home/y0wr1t3651hr59j5/public_html/demo/public/manager/index.php(8): callHook()
+#8 {main}
+  thrown in /home/maxlib/includes/functions.php on line 0
+[10-Mar-2016 13:00:45 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (11-17-2015 20:13) at position 0 (1): Unexpected character' in /home/maxlib/includes/functions.php:0
+Stack trace:
+#0 /home/maxlib/includes/functions.php(0): DateTime->__construct()
+#1 /home/maxlib/includes/functions.php(0): addTimezone()
+#2 /home/y0wr1t3651hr59j5/public_html/demo/admin-application/views/money/total_money_earn.php(142): displayDate('11-17-2015 20:1...', true, true, 'Asia/Dhaka')
+#3 /home/y0wr1t3651hr59j5/public_html/demo/library/template.class.php(52): include('/home/y0wr1t365...')
+#4 /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/moneycontroller.php(61): Template->render()
+#5 [internal function]: MoneyController->total_money_earn()
+#6 /home/y0wr1t3651hr59j5/public_html/demo/public/includes/framework-functions.php(150): call_user_func_array(Array, Array)
+#7 /home/y0wr1t3651hr59j5/public_html/demo/public/manager/index.php(8): callHook()
+#8 {main}
+  thrown in /home/maxlib/includes/functions.php on line 0
+[14-Mar-2016 21:59:47 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/questioncontroller.php on line 66
+[16-Mar-2016 00:53:53 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/languagecontroller.php on line 83
+[18-Mar-2016 06:28:44 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/disciplinescontroller.php on line 80
+[18-Mar-2016 06:29:28 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/papercontroller.php on line 75
+[18-Mar-2016 06:29:28 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/papercontroller.php on line 75
+[18-Mar-2016 06:29:28 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/papercontroller.php on line 75
+[18-Mar-2016 06:30:43 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/citationcontroller.php on line 78
+[18-Mar-2016 06:32:11 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/languagecontroller.php on line 77
+[21-Mar-2016 05:59:25 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/languagecontroller.php on line 77
+[21-Mar-2016 06:41:17 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/contentpagescontroller.php on line 136
+[21-Mar-2016 07:05:48 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (03-18-2016 19:21) at position 0 (0): Unexpected character' in /home/maxlib/includes/functions.php:0
+Stack trace:
+#0 /home/maxlib/includes/functions.php(0): DateTime->__construct()
+#1 /home/maxlib/includes/functions.php(0): addTimezone()
+#2 /home/y0wr1t3651hr59j5/public_html/demo/admin-application/views/money/total_money_earn.php(75): displayDate('03-18-2016 19:2...', true, true, 'Asia/Dhaka')
+#3 /home/y0wr1t3651hr59j5/public_html/demo/library/template.class.php(52): include('/home/y0wr1t365...')
+#4 /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/moneycontroller.php(61): Template->render()
+#5 [internal function]: MoneyController->total_money_earn()
+#6 /home/y0wr1t3651hr59j5/public_html/demo/public/includes/framework-functions.php(150): call_user_func_array(Array, Array)
+#7 /home/y0wr1t3651hr59j5/public_html/demo/public/manager/index.php(8): callHook()
+#8 {main}
+  thrown in /home/maxlib/includes/functions.php on line 0
+[21-Mar-2016 07:19:58 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (03-18-2016 19:21) at position 0 (0): Unexpected character' in /home/maxlib/includes/functions.php:0
+Stack trace:
+#0 /home/maxlib/includes/functions.php(0): DateTime->__construct()
+#1 /home/maxlib/includes/functions.php(0): addTimezone()
+#2 /home/y0wr1t3651hr59j5/public_html/demo/admin-application/views/money/total_money_earn.php(75): displayDate('03-18-2016 19:2...', true, true, 'Asia/Dhaka')
+#3 /home/y0wr1t3651hr59j5/public_html/demo/library/template.class.php(52): include('/home/y0wr1t365...')
+#4 /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/moneycontroller.php(61): Template->render()
+#5 [internal function]: MoneyController->total_money_earn()
+#6 /home/y0wr1t3651hr59j5/public_html/demo/public/includes/framework-functions.php(150): call_user_func_array(Array, Array)
+#7 /home/y0wr1t3651hr59j5/public_html/demo/public/manager/index.php(8): callHook()
+#8 {main}
+  thrown in /home/maxlib/includes/functions.php on line 0
+[21-Mar-2016 07:21:05 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (03-18-2016 02:48) at position 0 (0): Unexpected character' in /home/maxlib/includes/functions.php:0
+Stack trace:
+#0 /home/maxlib/includes/functions.php(0): DateTime->__construct()
+#1 /home/maxlib/includes/functions.php(0): addTimezone()
+#2 /home/y0wr1t3651hr59j5/public_html/demo/admin-application/views/money/total_money_earn.php(142): displayDate('03-18-2016 02:4...', true, true, 'Asia/Dhaka')
+#3 /home/y0wr1t3651hr59j5/public_html/demo/library/template.class.php(52): include('/home/y0wr1t365...')
+#4 /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/moneycontroller.php(61): Template->render()
+#5 [internal function]: MoneyController->total_money_earn()
+#6 /home/y0wr1t3651hr59j5/public_html/demo/public/includes/framework-functions.php(150): call_user_func_array(Array, Array)
+#7 /home/y0wr1t3651hr59j5/public_html/demo/public/manager/index.php(8): callHook()
+#8 {main}
+  thrown in /home/maxlib/includes/functions.php on line 0
+[21-Mar-2016 07:21:51 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (03-18-2016 02:48) at position 0 (0): Unexpected character' in /home/maxlib/includes/functions.php:0
+Stack trace:
+#0 /home/maxlib/includes/functions.php(0): DateTime->__construct()
+#1 /home/maxlib/includes/functions.php(0): addTimezone()
+#2 /home/y0wr1t3651hr59j5/public_html/demo/admin-application/views/money/total_money_earn.php(142): displayDate('03-18-2016 02:4...', true, true, 'Asia/Dhaka')
+#3 /home/y0wr1t3651hr59j5/public_html/demo/library/template.class.php(52): include('/home/y0wr1t365...')
+#4 /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/moneycontroller.php(61): Template->render()
+#5 [internal function]: MoneyController->total_money_earn()
+#6 /home/y0wr1t3651hr59j5/public_html/demo/public/includes/framework-functions.php(150): call_user_func_array(Array, Array)
+#7 /home/y0wr1t3651hr59j5/public_html/demo/public/manager/index.php(8): callHook()
+#8 {main}
+  thrown in /home/maxlib/includes/functions.php on line 0
+[21-Mar-2016 07:22:23 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (03-18-2016 02:48) at position 0 (0): Unexpected character' in /home/maxlib/includes/functions.php:0
+Stack trace:
+#0 /home/maxlib/includes/functions.php(0): DateTime->__construct()
+#1 /home/maxlib/includes/functions.php(0): addTimezone()
+#2 /home/y0wr1t3651hr59j5/public_html/demo/admin-application/views/money/total_money_earn.php(142): displayDate('03-18-2016 02:4...', true, true, 'Asia/Dhaka')
+#3 /home/y0wr1t3651hr59j5/public_html/demo/library/template.class.php(52): include('/home/y0wr1t365...')
+#4 /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/moneycontroller.php(61): Template->render()
+#5 [internal function]: MoneyController->total_money_earn()
+#6 /home/y0wr1t3651hr59j5/public_html/demo/public/includes/framework-functions.php(150): call_user_func_array(Array, Array)
+#7 /home/y0wr1t3651hr59j5/public_html/demo/public/manager/index.php(8): callHook()
+#8 {main}
+  thrown in /home/maxlib/includes/functions.php on line 0
+[21-Mar-2016 07:22:35 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (03-18-2016 19:21) at position 0 (0): Unexpected character' in /home/maxlib/includes/functions.php:0
+Stack trace:
+#0 /home/maxlib/includes/functions.php(0): DateTime->__construct()
+#1 /home/maxlib/includes/functions.php(0): addTimezone()
+#2 /home/y0wr1t3651hr59j5/public_html/demo/admin-application/views/money/total_money_earn.php(75): displayDate('03-18-2016 19:2...', true, true, 'Asia/Dhaka')
+#3 /home/y0wr1t3651hr59j5/public_html/demo/library/template.class.php(52): include('/home/y0wr1t365...')
+#4 /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/moneycontroller.php(61): Template->render()
+#5 [internal function]: MoneyController->total_money_earn()
+#6 /home/y0wr1t3651hr59j5/public_html/demo/public/includes/framework-functions.php(150): call_user_func_array(Array, Array)
+#7 /home/y0wr1t3651hr59j5/public_html/demo/public/manager/index.php(8): callHook()
+#8 {main}
+  thrown in /home/maxlib/includes/functions.php on line 0
+[21-Mar-2016 07:26:26 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (03-18-2016 02:48) at position 0 (0): Unexpected character' in /home/maxlib/includes/functions.php:0
+Stack trace:
+#0 /home/maxlib/includes/functions.php(0): DateTime->__construct()
+#1 /home/maxlib/includes/functions.php(0): addTimezone()
+#2 /home/y0wr1t3651hr59j5/public_html/demo/admin-application/views/money/total_money_earn.php(142): displayDate('03-18-2016 02:4...', true, true, 'Asia/Dhaka')
+#3 /home/y0wr1t3651hr59j5/public_html/demo/library/template.class.php(52): include('/home/y0wr1t365...')
+#4 /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/moneycontroller.php(61): Template->render()
+#5 [internal function]: MoneyController->total_money_earn()
+#6 /home/y0wr1t3651hr59j5/public_html/demo/public/includes/framework-functions.php(150): call_user_func_array(Array, Array)
+#7 /home/y0wr1t3651hr59j5/public_html/demo/public/manager/index.php(8): callHook()
+#8 {main}
+  thrown in /home/maxlib/includes/functions.php on line 0
+[22-Mar-2016 16:01:51 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/questioncontroller.php on line 71
+[28-Mar-2016 05:42:31 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/emailtemplatecontroller.php on line 64
+[04-Apr-2016 02:49:14 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/contentpagescontroller.php on line 136
+[08-Apr-2016 12:38:28 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/questioncontroller.php on line 71
+[12-Apr-2016 09:19:34 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/languagecontroller.php on line 83
+[15-Apr-2016 05:41:54 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/contentpagescontroller.php on line 136
+[15-Apr-2016 05:42:51 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/contentpagescontroller.php on line 136
+[15-Apr-2016 05:49:16 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/languagecontroller.php on line 83
+[15-Apr-2016 05:53:58 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/servicescontroller.php on line 81
+[16-Apr-2016 04:47:36 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/citationcontroller.php on line 84
+[16-Apr-2016 04:50:14 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/papercontroller.php on line 81
+[16-Apr-2016 04:50:36 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/papercontroller.php on line 81
+[16-Apr-2016 04:51:32 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/papercontroller.php on line 81
+[16-Apr-2016 04:53:16 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/papercontroller.php on line 81
+[16-Apr-2016 04:54:33 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/papercontroller.php on line 81
+[16-Apr-2016 04:55:28 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/papercontroller.php on line 75
+[16-Apr-2016 04:58:18 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/disciplinescontroller.php on line 80
+[16-Apr-2016 04:58:37 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/disciplinescontroller.php on line 80
+[16-Apr-2016 04:58:57 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/disciplinescontroller.php on line 80
+[16-Apr-2016 04:59:38 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/disciplinescontroller.php on line 80
+[16-Apr-2016 05:00:31 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/disciplinescontroller.php on line 80
+[26-Apr-2016 17:54:52 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/questioncontroller.php on line 71
+[06-May-2016 06:48:37 UTC] PHP Fatal error:  Access to undeclared static property: Applicationconstants::$mail_sending_options in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/configurationscontroller.php on line 128
+[06-May-2016 06:48:56 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/y0wr1t3651hr59j5/public_html/demo/public/includes/applicationconstants.php' (include_path='.:/usr/lib/php:/usr/local/lib/php:/home/maxlib:/home/y0wr1t3651hr59j5/public_html/demo/library') in /home/y0wr1t3651hr59j5/public_html/demo/public/includes/framework-functions.php on line 221
+[06-May-2016 09:40:26 UTC] PHP Fatal error:  Maximum execution time of 90 seconds exceeded in /home/y0wr1t3651hr59j5/public_html/demo/public/includes/phpmailer/class.phpmailer.php on line 814
+[17-May-2016 07:23:57 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/emailtemplatecontroller.php on line 64
+[09-Jun-2016 16:38:30 UTC] PHP Strict Standards:  Non-static method Message::addError() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/admincontroller.php on line 36
+[14-Jun-2016 12:38:30 UTC] PHP Strict Standards:  Non-static method Message::addError() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/admincontroller.php on line 36
+[07-Jul-2016 04:32:02 UTC] PHP Fatal error:  Database Query Error Provider Error Code: 42S02 Error Code: 1146 Error Details: Table 'y0wr1t36_write.tbl_configurations' doesn't exist in /home/maxlib/_classes/db.inc.php on line 0
+[07-Jul-2016 10:41:02 UTC] PHP Fatal error:  Database Query Error Provider Error Code: 42S02 Error Code: 1146 Error Details: Table 'y0wr1t36_write.tbl_configurations' doesn't exist in /home/maxlib/_classes/db.inc.php on line 0
+[09-Jul-2016 19:51:08 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/servicescontroller.php on line 81
+[23-Jul-2016 07:23:10 UTC] PHP Strict Standards:  Non-static method Message::addError() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/admincontroller.php on line 36
+[31-Jul-2016 16:32:02 UTC] PHP Fatal error:  Database Query Error Provider Error Code: 42S02 Error Code: 1146 Error Details: Table 'y0wr1t36_write.tbl_configurations' doesn't exist in /home/maxlib/_classes/db.inc.php on line 0
+[05-Aug-2016 09:26:13 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/languagecontroller.php on line 77
+[30-Aug-2016 12:50:03 UTC] PHP Fatal error:  Database Query Error Provider Error Code: 42S02 Error Code: 1146 Error Details: Table 'y0wr1t36_write.tbl_configurations' doesn't exist in /home/maxlib/_classes/db.inc.php on line 0
+[07-Sep-2016 17:17:27 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/languagecontroller.php on line 83
+[12-Sep-2016 20:00:06 UTC] PHP Fatal error:  Database Query Error Provider Error Code: 42S02 Error Code: 1146 Error Details: Table 'y0wr1t36_write.tbl_configurations' doesn't exist in /home/maxlib/_classes/db.inc.php on line 0
+[15-Sep-2016 12:17:03 UTC] PHP Fatal error:  Database Query Error Provider Error Code: 42S02 Error Code: 1146 Error Details: Table 'y0wr1t36_write.tbl_configurations' doesn't exist in /home/maxlib/_classes/db.inc.php on line 0
+[21-Sep-2016 02:34:02 UTC] PHP Fatal error:  Database Query Error Provider Error Code: 42S02 Error Code: 1146 Error Details: Table 'y0wr1t36_write.tbl_configurations' doesn't exist in /home/maxlib/_classes/db.inc.php on line 0
+[03-Oct-2016 07:27:27 UTC] PHP Strict Standards:  Non-static method Message::addError() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/admincontroller.php on line 36
+[18-Oct-2016 14:08:03 UTC] PHP Fatal error:  Database Query Error Provider Error Code: 42S02 Error Code: 1146 Error Details: Table 'y0wr1t36_write.tbl_configurations' doesn't exist in /home/maxlib/_classes/db.inc.php on line 0
+[18-Oct-2016 14:25:50 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/countriescontroller.php on line 76
+[18-Oct-2016 14:26:02 UTC] PHP Fatal error:  Database Query Error Provider Error Code: 42S02 Error Code: 1146 Error Details: Table 'y0wr1t36_write.tbl_configurations' doesn't exist in /home/maxlib/_classes/db.inc.php on line 0
+[03-Nov-2016 08:28:05 UTC] PHP Fatal error:  Call to undefined function t_lang() in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/views/user/default_action.php on line 10
+[03-Nov-2016 08:28:15 UTC] PHP Fatal error:  Call to undefined function t_lang() in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/views/user/default_action.php on line 10
+[03-Nov-2016 11:26:40 UTC] PHP Fatal error:  Call to undefined function t_lang() in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/views/user/default_action.php on line 10
+[03-Nov-2016 11:27:28 UTC] PHP Fatal error:  Call to undefined function t_lang() in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/views/user/default_action.php on line 10
+[03-Nov-2016 11:53:34 UTC] PHP Fatal error:  Call to undefined function t_lang() in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/views/user/default_action.php on line 10
+[05-Nov-2016 04:46:56 UTC] PHP Fatal error:  Call to undefined function t_lang() in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/views/user/default_action.php on line 10
+[05-Nov-2016 05:43:25 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/questioncontroller.php on line 71
+[05-Nov-2016 05:44:12 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/questioncontroller.php on line 66
+[11-Nov-2016 08:08:21 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/contentpagescontroller.php on line 136
+[11-Nov-2016 11:27:37 UTC] PHP Strict Standards:  Non-static method Message::addMsg() should not be called statically, assuming $this from incompatible context in /home/y0wr1t3651hr59j5/public_html/demo/admin-application/controllers/contentpagescontroller.php on line 136
